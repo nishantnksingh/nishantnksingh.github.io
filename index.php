@@ -1,0 +1,255 @@
+<html>
+    <head><title>Nishant Kumar Singh</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+
+
+<body id="page-top" class="index">
+  <!--  begin navigation  -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Personal Portfolio</a>
+        <a class="navbar-brand" id="navbar-brand-min" href="#">Portfolio</a>
+      </div>
+      <div style="height: 1px;" class="navbar-collapse collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">          
+          <li class="page-scroll">
+            <a href="#home">Home</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#portfolio">Projects</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#about">About</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--   end navigation -->
+  <!--   begin header -->
+  <header id="home">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/nishantpic.JPG" alt="Picture of Robert" class="img-responsive center-block" />
+          <div class="intro-text">
+            <span class="name">NISHANT KUMAR SINGH</span>
+            <hr class="star-light"></hr>
+          <span class="skills">Data Science/ Graphic Designer/ Web Developer</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+<!--   end header -->
+<!--   begin portfolio -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Projects</h2>
+        <hr class="star-primary"></hr>       
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20215144.jpg" target="_blank" class="thumbnail">
+        <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20215144.jpg" alt="Calculator">
+      </a>
+    </div>    
+    <div class="col-md-4">
+      <a href="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20220155.jpg" target="_blank" class="thumbnail">
+        <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20220155.jpg" alt="Simon Game">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20220330.jpg" target="_blank" class="thumbnail">
+        <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20220330.jpg" alt="Tic Tac Toe Game">
+      </a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-4">
+      <a href="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20220414.jpg" target="_blank" class="thumbnail">
+        <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/Annotation%202020-10-07%20220414.jpg" alt="Pomodoro Clock">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://raw.githubusercontent.com/shubhangi2318/capstone/main/WhatsApp%20Image%202020-10-07%20at%2010.01.33%20PM.jpeg" target="_blank" class="thumbnail">
+        <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/WhatsApp%20Image%202020-10-07%20at%2010.01.44%20PM%20(1).jpeg" alt="Local Weather">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://raw.githubusercontent.com/shubhangi2318/capstone/main/WhatsApp%20Image%202020-10-07%20at%2010.01.44%20PM%20(1).jpeg" target="_blank" class="thumbnail">
+        <img src="https://raw.githubusercontent.com/shubhangi2318/capstone/main/WhatsApp%20Image%202020-10-07%20at%2010.01.33%20PM.jpeg" alt="Tweatch Streamers">
+      </a>
+    </div>
+    
+  </div>
+  </div>
+</section>
+<!--   end portfolio -->
+<!--   begin about -->
+<section id="about" class="success text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>About</h2>
+        <hr class="star-light"></hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <p>Hello, my name is Nishant and I'm Graphic Designer and Web Developer.<br> I know following web development technologies: HTML, CSS, Javascript, Bootstrap, jQuery, Angular 2, Node.js, Photoshop, Corel Draw, Corel Video, JSON, AJAX, MySQL, Responsive layouts, Photoshop.</p>
+    </div>
+    <div class="col-md-4">
+      <p>Why should you choose me?<br>
+I am a hard working, love to learn new things, I am attentive to detail, punctual, I like to work in a team, Oriented on self-development.
+Finally, I want to work in a growing company, that focuses on new technologies, with which I will develop, and contribute to the development of the company.</p>
+    </div>
+    <div class="clearfix"></div>
+    <div class="soc">
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <a href="https://www.freecodecamp.com/nishantnksingh" target="_blank" class="btn btn-lg btn-success btn-responsive">
+        <i class="fa fa-fire"> FreeCodeCamp</i> 
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <a href="https://github.com/nishantnksingh" target="_blank" class="btn btn-lg btn-default btn-responsive">
+        <i class="fa fa-github"> GitHub</i> 
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <a href="https://www.linkedin.com/in/nishantnksingh" target="_blank" class="btn btn-lg btn-info btn-responsive">
+        <i class="fa fa-linkedin"> LinkdIn</i> 
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <a href="https://www.facebook.com/nishantnksingh" target="_blank" class="btn btn-lg btn-primary btn-responsive">
+        <i class="fa fa-facebook-official"> Facebook</i> 
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+<!--   end about -->
+<!--   begin contact -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Contact me</h2>
+        <hr class="star-primary"></hr>          
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <form name="sentMessage" id="contactForm" novalidate="">
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Name</label>
+            <input class="form-control" placeholder="Name" id="name" required="" data-validation-required-message="Please enter your name." type="text">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Email Address</label>
+            <input class="form-control" placeholder="Email Address" id="email" required="" data-validation-required-message="Please enter your email address." type="email">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Phone Number</label>
+            <input class="form-control" placeholder="Phone Number" id="phone" required="" data-validation-required-message="Please enter your phone number." type="tel">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="row control-group">
+          <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Message</label>
+            <textarea rows="5" class="form-control" placeholder="Message" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <br>
+        <div id="success"></div>
+        <div class="row">
+          <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-success btn-lg">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
+<!--   end contact -->
+<!-- begin footer -->
+<footer class="text-center">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>Location</h3>
+          <p class="text-center">Uttar Pradesh, Uttar Pradesh</p>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>Around the Web</h3>
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/nishantnksingh" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.com/nishantnksingh" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-fire"></i></a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/nishantnksingh" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/nishantnksingh" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>About this Page</h3>
+          <p class="text-center">Designed By Nishant Kumar Singh</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Nishant Kumar Singh © 2020. All Rights Reversed
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+</body>
+</html>
