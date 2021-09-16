@@ -34,3 +34,6 @@ h1{
     font-size: 160px;
     text-align: center;
 }
+footer>row{
+    background-color: grey;
+}
