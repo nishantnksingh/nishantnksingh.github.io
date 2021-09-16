@@ -5,8 +5,11 @@ Also building quality websites and designs with HTML, CSS, and JavaScript. Exten
 
 ## Technnologies Used:
 **Computer Languages:** C++, Java, JavaScript, PHP, HTML, CSS
-**IDEs and Programming Tools:** Sublime Text, NetBeans, Git, Visual Studio, API,
+
+**IDEs and Programming Tools:** Sublime Text, NetBeans, Git, Visual Studio, API
+
 **Frameworks and Backend:** React.js, Node.js, MySQL, MongoDB
+
 **Soft Skills:** Communication, Analytical thinking
 
 ## Achievements and Co-Curricular Activities
