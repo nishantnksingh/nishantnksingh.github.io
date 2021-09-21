@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Auth</title>
+        <meta name="google-signin-client_id" content="776803036592-ro6papvpil5vj7d5mg84lfvipkphrqj6.apps.googleusercontent.com">
+    </head>
+    <body>
+        Learning Auth
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+        <p id="alldetails"></p>
+        <img src="" id="imgofuser">
+
+
+        <a href="#" onclick="signOut();">Sign out</a>
+        
+        
+
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script>
+            //var auth2;
+        function onSignIn(googleUser) {
+            //auth2=gapi.auth2.init();
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            var alldetails=document.getElementById("alldetails");
+            alldetails.textContent=profile.getName();
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail());
+            alldetails.textContent=alldetails.textContent+" "+profile.getEmail(); // This is null if the 'email' scope is not present.
+            console.log('Given Name: ' + profile.getGivenName());
+            console.log('Family Name: ' + profile.getFamilyName());
+            var id_token = googleUser.getAuthResponse().id_token;
+            console.log("ID Token: " + id_token);   
+
+            var imgofuser=document.getElementById("imgofuser");
+            imgofuser.setAttribute('src',profile.getImageUrl());
+        }
+
+
+
+            function signOut() {
+                var auth2 = gapi.auth2.getAuthInstance();
+                auth2.signOut().then(function () {
+                console.log('User signed out.');
+                });
+            }
+
+
+
+
+            fetch('https://api.linkedin.com/v2/me')
+  .then(response => response.json())
+  .then(data => console.log(data));
+          </script>
+    </body>
+</html>
+
