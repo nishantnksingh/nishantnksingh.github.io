@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Todo List Sorted</title>
+        <style>
+            body {
+            background-color: #e8e5e3;
+            font-family: Myriad Pro, Helvetica Neue, Helvetica;
+            margin: 0 0;
+            padding : 10px;
+            text-align: center;
+            }
+
+            .inp {
+            border-radius: 3px;
+            border:2px solid rgb(128,128,128);
+            margin: 5px;
+            padding: 5px;
+            width: 13%;
+            }
+
+            table,th,tr {
+            border:1px solid #808080;
+            border-collapse:collapse;
+            padding:6px;
+            margin-top: 20px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <body>
+            <h1>Add tasks<h1>
+              <h2  id="error_message_here"></h2>
+              <form name="task_form" onsubmit="return false">
+                <div>
+                  <label>Task Id</label>
+                <br>
+                  
+              <input type="text" id="task" class="inp"> 
+              <br>
+                <br>
+              <label>Date of task</label>
+                  <br>
+                <input type="date" id="date_task" class="inp" pattern="\d{4}-\d{2}-\d{2}">
+                  <br>
+                 
+                 <br>
+                 
+                  <button id="add" onclick="addtask()">Add</button>
+                
+              </form>
+                
+                
+              <center><table id="tab">
+                <tr>
+                  <th>Date of Task</th>
+                  <th>Task Id</th>  
+                </tr>
+          
+                
+                
+                </table>
+                </center>
+                <br>
+                <button onclick="reset_table()">Reset</button>
+
+
+                
+               
+            <script src="index.js"></script>
+          </body>
+    </body>
+</html>
