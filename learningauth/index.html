@@ -14,7 +14,7 @@
 
         <a href="#" onclick="signOut();">Sign out</a>
         
-        
+        <a href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&state=987654321&scope=r_liteprofile&client_id=86gzfn08to9r3c&redirect_uri=https://nishantnksingh.github.io/learningauth/"
 
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script>
@@ -48,11 +48,7 @@
             }
 
 
-
-
-            fetch('https://api.linkedin.com/v2/me')
-  .then(response => response.json())
-  .then(data => console.log(data));
+    fetch('https://api.linkedin.com/v2/me').then(response => response.json()).then(data => console.log(data));
           </script>
     </body>
 </html>
