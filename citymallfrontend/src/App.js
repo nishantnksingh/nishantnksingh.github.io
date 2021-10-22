@@ -7,12 +7,13 @@ import 'ag-grid-enterprise';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 import {Table} from './Table';
+import './App.css'
 
 function App(){
     return(
         <div style={{ display:'flex',
-        alignItems:'center',
-        font}}>
+        alignItems:'center'
+        }}>
             <Table />
         </div>
     )
