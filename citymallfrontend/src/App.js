@@ -11,7 +11,8 @@ import {Table} from './Table';
 function App(){
     return(
         <div style={{ display:'flex',
-        alignItems:'center'}}>
+        alignItems:'center',
+        font}}>
             <Table />
         </div>
     )
