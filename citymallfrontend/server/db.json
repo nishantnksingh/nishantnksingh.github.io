@@ -1,0 +1,12 @@
+{
+    "users":[{
+        "id":1,"name":"Janie",
+         "email":"jclampton02over-blog.com",
+         "gender":"Female",
+         "dob":"03-07-1998",
+         "country":"Indonesia",
+         "city":"Klatakan",
+         "action":"Action"
+    }
+]
+}

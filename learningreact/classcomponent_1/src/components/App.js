@@ -1,6 +1,11 @@
+import { ReactWrapper } from "enzyme";
 import React, {Component, useState} from "react";
 import ReactDOM from 'react-dom';
 import '../styles/App.css';
+import para from './para';
+import {AgGridReact} from 'ag-grid-react';
+import 'ag-grid-community/dist/styles/ag-grid.css';
+
 
 
 class App extends Component {
@@ -8,14 +13,11 @@ class App extends Component {
 		super(props);
 		
 	};
-	printpara() {
-		ReactDOM.render(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>, document.getElementById("root"));
-	}
 
     render() {
     	return(
     		<div id="main">
-				<button id="click" onClick={this.printpara}>Submit</button>
+				<button id="click" onClick={ReactDOM.render(<para />,document.getElementById('root'))}>Click</button>
     		</div>
     	);
     }
@@ -23,7 +25,5 @@ class App extends Component {
 	
 }
 
-console.log("app js working");
-ReactDOM.render(<App />, document.getElementById("root"));
 export default App;
 
