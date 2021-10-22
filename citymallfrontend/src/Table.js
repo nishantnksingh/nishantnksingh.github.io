@@ -65,7 +65,7 @@ export const Table=()=>{
             "id":3,"name":"Homerus",
              "email":"hivanenkov2@163@slashdot.org",
              "gender":"Male",
-             "dob":"24-12-1997",
+             "dob":"24-12-1998",
              "country":"Ukraine",
              "city":"Leviv",
              "action":"Action"
