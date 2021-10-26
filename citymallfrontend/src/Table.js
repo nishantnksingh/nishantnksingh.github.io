@@ -40,7 +40,6 @@ export const Table=()=>{
         else{
             console.log(params.length);
             return false;
-           
         }
     }
     
@@ -54,7 +53,7 @@ export const Table=()=>{
         {headerName:"DOB",field:"dob", cellStyle:(params)=>((checkempty(params.value))?{background:"red"}:{background:"white"}) },
         {headerName:"Country",field:"country",cellStyle:(params)=>((checkempty(params.value))?{background:"red"}:{background:"white"})},
         {headerName:"City",field:"city",cellStyle:(params)=>((checkempty(params.value))?{background:"red"}:{background:"white"})},
-        {headerName:"Action",field:"action",editable:false, cellRendererFramework:(params)=><div><img src={deleteimg} height="15px"  onClick={()=>checkempty(params.value)}/></div>}
+        {headerName:"Action",field:"action",editable:false, cellRendererFramework:(params)=><div><img src={deleteimg} height="15px"  onClick={()=> onRemoveSelected()}/></div>}
     ]
     const defaultColDef={
         editable:true,filter:true,sortable:true,flex:1
@@ -110,7 +109,7 @@ export const Table=()=>{
        
       };
    
-
+      
 
     return(
     <div className="ag-theme-alpine"
